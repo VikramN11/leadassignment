@@ -1,0 +1,32 @@
+
+.inputcode_div {
+    width: 30%;
+    margin: auto;
+    padding: 2px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    background-color: #635fc7;
+    color: white;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 700;
+  }
+
+  input[type="submit"]:hover{
+    background-color: #54a8a8;
+    color: white;
+  }
+  
